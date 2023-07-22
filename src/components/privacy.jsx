@@ -10,7 +10,7 @@ export const Privacy =()=>{
         <div className="layout-style py-5">
             <RevealAnimation>
                 <Text
-                    style="fs-4 fw-400 text-black text-center mb-5"
+                    style="fs-4 fw-bold text-black text-center mb-5"
                     value="PRIVACY AND PROTECTION IN THREE STEPS"
                 />
             </RevealAnimation>

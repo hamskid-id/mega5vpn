@@ -16,7 +16,7 @@ export const WhySection =()=>{
         >
             <RevealAnimation>
                 <Text
-                    style="mb-3 fs-4 text-center text-white fw-400"
+                    style="mb-3 fs-4 text-center text-white fw-bold"
                     value="WHY USE A VPN?"
                 />
             </RevealAnimation>

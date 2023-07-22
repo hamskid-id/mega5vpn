@@ -105,6 +105,14 @@
 .cancel{
   font-size: 1.25rem;
 }
+.w-16{
+  width:16%;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+  .w-16{
+    width:auto;
+  }
+}
 @media only screen and (min-width:320px) and (max-width:570px){
   .cancel{
     font-size: 0.8rem;

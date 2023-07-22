@@ -14,7 +14,7 @@ export const ProtectAllDevices =()=>{
             }}>
                 <RevealAnimation>
                     <Text
-                        style="mb-5 fs-4 text-center text-white fw-400"
+                        style="mb-5 fs-4 text-center text-white fw-bold"
                         value="PROTECT ALL YOUR DEVICES"
                     />
                 </RevealAnimation>

@@ -18,7 +18,7 @@ export const Features =()=>{
         >
             <RevealAnimation>
                 <Text
-                    style="fs-4 fw-400 text-white text-center mb-5"
+                    style="fs-4 fw-bold text-white text-center mb-5"
                     value="FEATURES"
                 />
             </RevealAnimation>
@@ -51,12 +51,13 @@ export const Features =()=>{
                     return(
                         <div 
                             key={index}
-                            className={`${ spaceTop ? "spaceTop" : '' } p-2 shiftCenter`}
+                            className={`${ spaceTop ? "spaceTop" : '' } p-2 shiftCenter w-16`}
                         >
                             <RevealAnimation>
                                 <img 
                                     src={img}
                                     alt="object not found"
+                                    className="w-100"
                                 />
                             </RevealAnimation>
                         </div>
