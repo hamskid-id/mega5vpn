@@ -46,7 +46,7 @@ export const Footer =()=>{
                         })
                     }
                 </div>
-                <div className="wt-50 d-flex wrap justify-content-between m-auto">
+                <div className="wt-50 d-flex wrap justify-content-center m-auto">
                     {[
                         {
                             title:"Privacy policy",
