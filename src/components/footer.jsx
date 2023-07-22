@@ -28,7 +28,7 @@ export const Footer =()=>{
                                 text
                             }=option;
                             return(
-                                <div key={index} className="d-flex flex-column p-3 wt-25">
+                                <div key={index} className="d-flex flex-column p-3 why-sec">
                                     <RevealAnimation>
                                         <Text
                                             style="text-white fw-bold fs-6 mb-3"

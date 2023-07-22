@@ -108,12 +108,21 @@
 .w-16{
   width:16%;
 }
-@media only screen and (min-width:320px) and (max-width:768px){
-  .w-16{
+.w-25{
+  width:25%;
+}
+.why-sec{
+  width:25%;
+}
+@media only screen and (min-width:571px) and (max-width:768px){
+  .w-16,.w-25{
     width:auto;
   }
 }
 @media only screen and (min-width:320px) and (max-width:570px){
+  .w-16,.w-25{
+    width: 50%!important;
+  }
   .cancel{
     font-size: 0.8rem;
   }
@@ -127,7 +136,7 @@
     padding-left: 1rem;
     padding-right: 1em;
 }
-.wt-50,.wt-75,.wt-32,.wt-25{  
+.wt-50,.wt-75,.wt-32,.why-sec{  
   width: 100%;
 }
 }
