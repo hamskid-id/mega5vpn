@@ -43,7 +43,7 @@ export const WhySection =()=>{
                             img
                         }=option;
                         return(
-                            <div className="p-2 shiftCenter w-25"key={index}>
+                            <div className="p-2 shiftCenter w-20"key={index}>
                                 <RevealAnimation>
                                     <img src={img} alt="object not found" className="w-100"/>
                                 </RevealAnimation>
