@@ -1,0 +1,148 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height:100vh;
+  font-family: 'Poppins', sans-serif;
+}
+.spaceTop{
+  margin-top: 2rem;
+ }
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.background-image{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav{
+  padding:1rem 3rem;
+  background:#1F1E28;
+}
+.fw-400{
+  font-weight: 400;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.justify{
+  text-align: justify;
+}
+.fw-300{
+  font-weight: 300;
+}
+.footer-hero1bg{
+  background-color: #232323;
+}
+.wt-25{
+  width:25%;
+}
+.footer-hero2bg{
+  background-color: #0D0C14;
+}
+.downloadbtn{
+  background-image:linear-gradient(90deg, #1DFAE5 0%, white 35%,  #1DFAE5 100%);
+  color:black;
+  border-radius: 20px;
+}
+.downloadbtn2{
+  background-image:linear-gradient(90deg, #1DFAE5 0%, white 35%,  #1DFAE5 100%);
+  color:black;
+  border-radius: 20px;
+}
+.greengradient{
+  background-image:linear-gradient(90deg, #1DFAE5 0%, white 35%,  #1DFAE5 100%);
+}
+.bluegradient{
+  background-image:linear-gradient(90deg, #5C9DFF 0%, white 35%,  #5C9DFF 100%);
+}
+.yellowgradient{
+  background-image:linear-gradient(90deg, #FFAD4D 0%, white 35%,  #FFAD4D 100%);
+}
+.downloadbtnRed{
+  background-image:linear-gradient(90deg, #FF5050 0%, white 85%,  #FF5050 100%);
+  border-radius: 20px;
+}
+.layout-style{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+.wt-50{
+  width:50%;
+}
+.w-fit-content{
+  width: fit-content;
+}
+.fs-7{
+  font-size: 0.9rem;
+}
+.wt-75{
+  width:75%;
+}
+.wt-50{
+  width:50%;
+}
+.wt-32{
+  width:32%;
+}
+.ln-23{
+  line-height: 23px;
+}
+.fs-8{
+  font-size: 0.8rem;
+}
+.text-wrap{
+  word-break: break-all;
+}
+.cancel{
+  font-size: 1.25rem;
+}
+@media only screen and (min-width:320px) and (max-width:570px){
+  .cancel{
+    font-size: 0.8rem;
+  }
+  .nav{
+    padding: 1rem;
+  }
+  .shiftCenter{
+    margin: 0 auto;
+  }
+  .layout-style {
+    padding-left: 1rem;
+    padding-right: 1em;
+}
+.wt-50,.wt-75,.wt-32,.wt-25{  
+  width: 100%;
+}
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
