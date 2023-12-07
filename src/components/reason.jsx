@@ -3,12 +3,12 @@ import Group98 from "../assets/Group 98.png"
 import Group99 from "../assets/Group 99.png"
 import Group97 from "../assets/Group 97.png"
 import Group100 from "../assets/Group 100.png"
-import bgimage from "../assets/Tło 3.png"
+import bgimage from "../assets/Tbg 3.png"
 import { RevealAnimation } from "./reveal"
 
 export const WhySection =()=>{
     return(
-        <div 
+        <div
             className="py-5 layout-style background-image"
             style={{
                 backgroundImage:`url("${bgimage}")`

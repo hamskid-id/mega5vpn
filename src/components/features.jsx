@@ -5,7 +5,7 @@ import grimg4 from "../assets/Group 47.png"
 import grimg5 from "../assets/Group 48.png"
 import grimg6 from "../assets/Group 49.png"
 import grimg7 from "../assets/Group 51.png"
-import ti4 from "../assets/Tło 4.png"
+import ti4 from "../assets/Tbg 4.png"
 import { RevealAnimation } from "./reveal"
 
 export const Features =()=>{
@@ -49,12 +49,12 @@ export const Features =()=>{
                         spaceTop
                     }=option;
                     return(
-                        <div 
+                        <div
                             key={index}
                             className={`${ spaceTop ? "spaceTop" : '' } p-2 shiftCenter w-16`}
                         >
                             <RevealAnimation>
-                                <img 
+                                <img
                                     src={img}
                                     alt="object not found"
                                     className="w-100"

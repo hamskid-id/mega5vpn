@@ -1,7 +1,7 @@
 import { Btn } from "../element/btn"
 import { Text } from "../element/text"
 import image from "../assets/Group 113.png"
-import bgimage from "../assets/Tło 2.png"
+import bgimage from "../assets/Tbg 2.png"
 import { RevealAnimation } from "./reveal"
 
 export const IntroSection =()=>{
@@ -48,13 +48,13 @@ export const IntroSection =()=>{
                 <RevealAnimation
                     side={true}
                 >
-                    <img 
+                    <img
                         src={image}
                         alt="object not found"
                         className="w-100"
                     />
                 </RevealAnimation>
-                
+
             </div>
         </div>
     )

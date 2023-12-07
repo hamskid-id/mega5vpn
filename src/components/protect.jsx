@@ -1,13 +1,13 @@
 import { Text } from "../element/text"
 import img from "../assets/Group 114.png";
 import vector from "../assets/Vector (13).png";
-import bgimg from "../assets/Tło 5.png";
+import bgimg from "../assets/Tbg 5.png";
 import { Btn } from "../element/btn";
 import { RevealAnimation } from "./reveal";
 
 export const ProtectAllDevices =()=>{
     return(
-        <div 
+        <div
             className="py-5 layout-style background-image"
             style={{
                 backgroundImage:`url("${bgimg}")`
@@ -18,7 +18,7 @@ export const ProtectAllDevices =()=>{
                         value="PROTECT ALL YOUR DEVICES"
                     />
                 </RevealAnimation>
-            
+
             <div className="d-flex wrap justify-content-between pt-3">
                 <div className="wt-50">
                     <RevealAnimation>
@@ -30,7 +30,7 @@ export const ProtectAllDevices =()=>{
                     <div className="mb-4">
                         {["Use Mega VPN on every device","One click to a safer internet","Secure access, worldwide","Stronger data protection" ].map((option,index)=>{
                             return(
-                                <div 
+                                <div
                                     key={index}
                                     className="d-flex align-items-center mb-3"
                                 >
@@ -62,7 +62,7 @@ export const ProtectAllDevices =()=>{
                 </div>
                 <div className="px-4 wt-50">
                     <RevealAnimation side={true}>
-                        <img 
+                        <img
                             src={img}
                             alt="object not found"
                             className="w-100"
